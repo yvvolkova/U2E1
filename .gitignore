@@ -7,9 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencias instaladas. No se guardan en Git porque se pueden generan com npm install and conectada con OS 
 node_modules
+
+# Archivos generados al compilar el proecto. Se pueden generar de nuevo con npm buid
 dist
 dist-ssr
+
 *.local
 
 # Editor directories and files
