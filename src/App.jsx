@@ -5,11 +5,25 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Confetti from 'react-confetti'
 
+
+// componento personalizado
+function MiComponenta() {
+  return (
+    <>
+    {/*Comentario en html*/}
+    <h3>Hey!</h3>
+    <p>Este es mi componento</p>
+    </>
+  )
+}
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+     <Confetti></Confetti>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
