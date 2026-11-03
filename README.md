@@ -24,4 +24,4 @@ Aunque la carpeta `node_modules/` está excluida de Git, borrar una dependencia 
 
 ## Web desplegada
 
-La URL de GitHub Pages se añadirá aquí después del despliegue.
+[Ver la web desplegada](https://yvvolkova.github.io/U2E1-pages/)
