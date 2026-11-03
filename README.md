@@ -17,6 +17,7 @@ Proyecto creado con Vite, React y JavaScript para practicar npm, ramas de Git y 
 ### Escena 3D
 
 ![Escena 3D](capturas/three-sceneTeacher.png)
+![Escena 3D con confetti](capturas/three-sceneFinal.png)
 
 ## Dependencias y Git
 Si la carpeta node_modules/ está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?
