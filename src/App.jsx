@@ -3,12 +3,14 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import PlanetScene from './PlanetScene'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <PlanetScene />
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -17,6 +19,10 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
+          <p>
+            No encontré los archivos del ejercicio 3D, así que añadí mi propio
+            planeta animado con Three.js.
+          </p>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
