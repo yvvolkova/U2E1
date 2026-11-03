@@ -16,9 +16,10 @@ Proyecto creado con Vite, React y JavaScript para practicar npm, ramas de Git y 
 
 ### Escena 3D
 
-![Escena 3D](capturas/three-scene.png)
+![Escena 3D](capturas/three-sceneTeacher.png)
 
 ## Dependencias y Git
+Si la carpeta node_modules/ está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?
 
 Aunque la carpeta `node_modules/` está excluida de Git, borrar una dependencia sí cambia el repositorio: se actualizan los archivos `package.json` y `package-lock.json`. Git guarda esos cambios, pero no los archivos instalados dentro de `node_modules/`.
 
