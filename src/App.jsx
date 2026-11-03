@@ -20,10 +20,6 @@ function App() {
         <div>
           <h1>Get started</h1>
           <p>
-            No encontré los archivos del ejercicio 3D, así que añadí mi propio
-            planeta animado con Three.js.
-          </p>
-          <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
